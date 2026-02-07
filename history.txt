@@ -1,0 +1,19 @@
+    1  dockr system prune
+    2  docker system prune
+    3  mkdir python-nginx
+    4  cd python-nginx/
+    5  vim dockerfile
+    6  docker build -t python-nginx-template .
+    7  vim dockerfile
+    8  docker build -t python-nginx-template .
+    9  docker images 
+   10  docker run -d -p 80:80 python-nginx-template
+   11  docker ps -a
+   12  sudo apt update
+   13  sudo apt install gh -y
+   14  gh auth login
+   15  git init
+   16  git add .
+   17  git commit -m "Updated nginx config"
+   18  gh repo create python-nginx --public --source=. --remote=origin --push
+   19  history > history.txt
